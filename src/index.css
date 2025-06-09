@@ -14,7 +14,7 @@ body {
   align-items: center;
   height: 90vh;
   font-family: var(--fontroboto);
-  background-image: url("./public/bg-image.webp");
+  /* background-image: url("./public/bg-image.webp"); */
   background-size: cover;
   background-position: center;
 }
