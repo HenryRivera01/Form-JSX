@@ -7,7 +7,7 @@ function handleSubmit(e) {
   console.log("enviaste");
   const form = e.target;
   const formData = new FormData(form); // generates an object with all data (names and values)
-  const entries = formData.entries(); // generates an object with all data (names and values)
+  const entries = formData.entries(); 
   const data = [...entries];
   console.log(data);
 }
@@ -22,7 +22,7 @@ export const Form = () => {
         <Input required label="Phone Number" type="number" />
         <Input required label="Email" type="email" />
         <Input required label="Password" type="password" />
-        <Input required='false' className="textArea" label="Comments" type="text" />
+        <Input className="textArea" label="Comments" type="text" />
         <SubmitButton type="submit" text="enviar" />
         <AlertButton />
       </form>
