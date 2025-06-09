@@ -1,9 +1,3 @@
-export const SubmitButton = ({type, text}) => { 
-  return (
-    <>
-        <button type={type}>
-            {text}
-        </button>
-    </>
-  )
+export const SubmitButton = ({ type, text }) => {
+  return <button type={type}>{text}</button>
 }
